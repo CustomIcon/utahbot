@@ -1,23 +1,13 @@
-# Emilia
-A modular telegram Python bot running on python3 with an sqlalchemy database.
+# Utah kasumigaoka
+A modular telegram Python bot running on python3 with an sqlalchemy database which is forked from emilia bot.
 
-Based on [marie bot](https://github.com/PaulSonOfLars/tgbot)
-
-### [Read indonesia README](https://github.com/AyraHikari/EmiliaHikari/blob/master/README.id.md)
-
-**If you want to translate this bot**, [please go here](https://github.com/AyraHikari/EmiliaHikari/blob/master/TRANSLATION.md)
-
-Can be found as [Emilia](https://t.me/EmiliaHikariBot).
+That is based on [marie bot](https://github.com/PaulSonOfLars/tgbot)
 
 
-For questions regarding creating your own bot, please head to [support group](https://t.me/EmiliaOfficial) where you'll find a
-group of volunteers to help. We'll also help when a database schema changes, and some table column needs to be
-modified/added (this info can also be found in the commit messages)
+Can be found as [utaha](http://t.me/Kasumiutahabot)
 
-Join the [news channel](https://t.me/AyraBotNews) if you just want to stay in the loop about new features or
+Join the [news channel](https://t.me/uthahaupd) if you just want to stay in the loop about new features or
 announcements.
-
-Or [ask me in telegram](https://t.me/AyraHikari)! (Save all support questions in the support chat, where more people can help you.)
 
 Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
 
