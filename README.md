@@ -3,7 +3,7 @@
 A modular telegram Python bot running on python3 with an sqlalchemy database which is forked from emilia bot.
 
 That is based on [marie bot](https://github.com/PaulSonOfLars/tgbot)
-
+Join the support group for any query [utah support](https://t.me/chizurusupport)
 
 Can be found as [utah](http://t.me/Kasumiutahabot)
 
