@@ -85,7 +85,7 @@ if ENV:
 	SPAMWATCH_TOKEN = os.environ.get('SPAMWATCH_TOKEN', None)
 
 else:
-	from emilia.config import Development as Config
+	from utah.config import Development as Config
 	TOKEN = Config.API_KEY
 	try:
 		OWNER_ID = int(Config.OWNER_ID)
@@ -163,13 +163,13 @@ SPAMMERS = list(SPAMMERS)
 GROUP_BLACKLIST = list(GROUP_BLACKLIST)
 
 # Load at end to ensure all prev variables have been set
-from emilia.modules.helper_funcs.handlers import CustomCommandHandler
+from utah.modules.helper_funcs.handlers import CustomCommandHandler
 
 if CUSTOM_CMD and len(CUSTOM_CMD) >= 1:
 	tg.CommandHandler = CustomCommandHandler
 
 try:
-	from emilia.antispam import antispam_restrict_user, antispam_cek_user, detect_user
+	from utah.antispam import antispam_restrict_user, antispam_cek_user, detect_user
 	LOGGER.info("Note: AntiSpam loaded!")
 	antispam_module = True
 except ModuleNotFoundError:
